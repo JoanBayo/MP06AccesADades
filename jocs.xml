@@ -1,0 +1,120 @@
+<data>
+    <game id="1">
+        <name>League of Legends</name>
+        <year>2009</year>
+        <system>Windows</system>
+        <developer>Riot Games, Inc.</developer>
+        <genre>Strategy</genre>
+        <description>Consisteix amb dos equips de cinc jugadors, els quals cada un te un personatge amb unes habilitats,
+            per guanyar la partida tens que destruir el "nexo" del equip rival
+        </description>
+        <imageURL>https://www.google.com/search?q=league+of+legends&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwiqnNel9sb6AhWC7aQKHRGCA4oQ_AUoAXoECAEQAw&amp;biw=1243&amp;bih=1301&amp;dpr=1#imgrc=6nEBI8Gfqs6BAM</imageURL>
+    </game>
+    <game id="2">
+        <name>The Lord of the Rings: The Third Age</name>
+        <year>2004</year>
+        <system>Play Station 2, Xbox, GameCube</system>
+        <developer>Electronic Arts Redwood Shores Studio</developer>
+        <genre>Role-playing</genre>
+        <description>Consisteix amb passarte la historia del senyor dels anells</description>
+        <imageURL>https://upload.wikimedia.org/wikipedia/en/9/95/Thirdagebox.jpg</imageURL>
+    </game>
+    <game id="3">
+        <name>Tom Clancy's Rainbow Six: Siege</name>
+        <year>2015</year>
+        <system>PlayStation 4, Windows, Xbox One</system>
+        <developer>Ubisoft Entertainment Inc.</developer>
+        <genre>Action</genre>
+        <description>Son dos equips de cinc jugadors, cadascun amb uns personatges amb habilitats diferents, un equip es
+            troba dintre una casa fent de terroristes, i els atres de l'exterior fan de serveis especials i tenen que
+            accedir a la casa
+        </description>
+        <imageURL>
+            https://www.mobygames.com/images/covers/l/316927-tom-clancy-s-rainbow-six-siege-playstation-4-front-cover.jpg
+        </imageURL>
+    </game>
+    <game id="4">
+        <name>Grand Theft Auto V</name>
+        <year>2013</year>
+        <system>PlayStation 3, PlayStation 4 PlayStation5, Windows, Xbox 360, Xbox One, Xbox Cloud Gaming</system>
+        <developer>Rockstar North Ltd.</developer>
+        <genre>Action, Racing/Driving</genre>
+        <description>Un joc de mapa obert en el qual tens tres protagonistes per jugar el mode historia, tamb&#233; pots
+            jugar online, rolplay i fer carreres i minijocs
+        </description>
+        <imageURL>https://www.mobygames.com/images/covers/l/310047-grand-theft-auto-v-xbox-360-front-cover.png
+        </imageURL>
+    </game>
+    <game id="5">
+        <name>LEGO Marvel Super Heroes</name>
+        <year>2013</year>
+        <system>Macintosh, Nintendo Switch, PlayStation 3, PlayStation 4, Wii U, Windows, Xbox 360, Xbox One</system>
+        <developer>Traveller's Tales (UK) Ltd.</developer>
+        <genre>Action</genre>
+        <description>Un joc basat amb la tematica de marvel, pero dintre del mon de LEGO, poden aixi oferir una versio
+            mes distreta i infantil on pots fer el mode hisotria i despres juga amb el mapa obert
+        </description>
+        <imageURL>https://www.mobygames.com/images/covers/l/273782-lego-marvel-super-heroes-wii-u-front-cover.jpg
+        </imageURL>
+    </game>
+    <game id="6">
+        <name>Ben 10: Protector of Earth</name>
+        <year>2007</year>
+        <system>PlayStation2, PSP, Wii</system>
+        <developer>High Voltage Software, Inc.</developer>
+        <genre>Action</genre>
+        <description>Un joc basat en BEN 10, un joc de la infancia, el qual et permetia transformarte en 10 aliens
+            mitjan&#231;ant un rellotge espacial per salvar la terra, seguin el mode historia de la serie
+        </description>
+        <imageURL>https://www.mobygames.com/images/covers/l/144816-ben-10-protector-of-earth-wii-front-cover.jpg
+        </imageURL>
+    </game>
+    <game id="7">
+        <name>Pokemon White Version</name>
+        <year>2011</year>
+        <system>Nintentdo DS</system>
+        <developer>Game Freak, Inc.</developer>
+        <genre>Role-playing (RPG)</genre>
+        <description>Tens que anar pel mon pokemon capturan pokemons uns especie de animals amb habilitats especials i
+            de diferents tipus per tal de ser el millor entrenador pokemon i gaunyar la lliga pokemon
+        </description>
+        <imageURL>https://www.mobygames.com/images/covers/l/237449-pokemon-white-version-nintendo-ds-front-cover.png
+        </imageURL>
+    </game>
+    <game id="8">
+        <name>Inazuma Eleven 2: Blizzard</name>
+        <year>2009</year>
+        <system>Nintendo DS</system>
+        <developer>Level-5 Inc.</developer>
+        <genre>Role-playing (RPG), Sports</genre>
+        <description>Tens que montar el teu equip de futbol, seleccionan els millors jugadors, ja que cadascun te les
+            seves habilitats especials, per tal de salvar el planeta terra del extraterrestres mitjan&#231;ant el futbol
+        </description>
+        <imageURL>
+            https://www.mobygames.com/images/shots/s/1031189-inazuma-eleven-2-blizzard-nintendo-ds-screenshot-title-screen.jpg
+        </imageURL>
+    </game>
+    <game id="9">
+        <name>Mario Kart</name>
+        <year>2005</year>
+        <system>Nintendo DS, Wii U</system>
+        <developer>Nintendo EAD</developer>
+        <genre>Racing / Driving</genre>
+        <description>En aquest joc tens que escollir un personatge, el qual te un veichle diferent als altres, per tal
+            de guanyar el m&#224;xim de carreres possibles, es pot jugar de forma online amb els teus amcs
+        </description>
+        <imageURL>https://www.mobygames.com/images/covers/l/171145-mario-kart-ds-nintendo-ds-front-cover.png</imageURL>
+    </game>
+    <game id="10">
+        <name>Cooking Mama 2: Dinner with Friends</name>
+        <year>2007</year>
+        <system>Nintendo DS</system>
+        <developer>Office Create</developer>
+        <genre>Simulation</genre>
+        <description>En aquest joc tens que cuinar i intentar fer el millor possible els minjars, una passada vaiga
+        </description>
+        <imageURL>
+            https://www.mobygames.com/images/covers/l/97833-cooking-mama-2-dinner-with-friends-nintendo-ds-front-cover.jpg
+        </imageURL>
+    </game>
+</data>
