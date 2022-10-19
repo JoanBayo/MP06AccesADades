@@ -1,0 +1,36 @@
+{% extends "WebJocs.html" %}
+
+{% block llistat -%}
+        {% for joc in jocs -%}
+            <h1 class="titul"><u>{{joc.get("nom")}}</u></h1>
+            <div class = "grid-container">
+                <div class="item1">
+                     <figue>
+                            <img alt="lol image" title="League of Legends image" src={{joc.get("imatge")}} width="50%">
+                            <figcaption>Portada League of Legends</figcaption>
+                        </figue>
+                </div>
+                <div class="item2">
+                    <h3>Year: </h3>
+                    <p>{{joc.get("any")}}</p>
+                </div>
+                <div class="item2">
+                    <h3>Developer: </h3>
+                    <p>{{joc.get("desenvolupador")}}</p>
+                </div>
+                <div class="item2">
+                    <h3>Plataform: </h3>
+                    <p>{{joc.get("sistema")}}</p>
+                </div>
+                <div class="item2">
+                    <h3>Genre: </h3>
+                    <p>{{joc.get("genere")}}</p>
+                </div>
+                <div class="item3">
+                    <h3>Descripció: </h3>
+                    <p>{{joc.get("descripcio")}}</p>
+                </div>
+            </div>
+        {% endfor -%}
+
+{% endblock -%}

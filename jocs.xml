@@ -1,15 +1,4 @@
 <data>
-    <game id="1">
-        <name>League of Legends</name>
-        <year>2009</year>
-        <system>Windows</system>
-        <developer>Riot Games, Inc.</developer>
-        <genre>Strategy</genre>
-        <description>Consisteix amb dos equips de cinc jugadors, els quals cada un te un personatge amb unes habilitats,
-            per guanyar la partida tens que destruir el "nexo" del equip rival
-        </description>
-        <imageURL>https://www.google.com/search?q=league+of+legends&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwiqnNel9sb6AhWC7aQKHRGCA4oQ_AUoAXoECAEQAw&amp;biw=1243&amp;bih=1301&amp;dpr=1#imgrc=6nEBI8Gfqs6BAM</imageURL>
-    </game>
     <game id="2">
         <name>The Lord of the Rings: The Third Age</name>
         <year>2004</year>
@@ -117,4 +106,4 @@
             https://www.mobygames.com/images/covers/l/97833-cooking-mama-2-dinner-with-friends-nintendo-ds-front-cover.jpg
         </imageURL>
     </game>
-</data>
+<game id="1"><name>League of Legends</name><year>2009</year><system>Windows</system><developer>Riot Games, Inc.</developer><genre>Strategy</genre><description>Consisteix amb dos equips de cinc jugadors, els quals cada un te un personatge amb unes habilitats,</description><imageURL>            per guanyar la partida tens que destruir el "nexo" del equip rivalhttps://e7.pngegg.com/pngimages/414/243/png-clipart-league-of-legends-logo-video-games-league-of-legends-game-text.png</imageURL></game></data>

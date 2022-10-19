@@ -1,5 +1,6 @@
 import os
 import xml.etree.ElementTree as ET
+from jinja2 import Environment, FileSystemLoader
 
 # data//game id//name/year/systems/developer/genre/description/imageURL
 existeixDirecotriJocs = os.path.exists("jocs.xml")
@@ -26,11 +27,12 @@ while (True):
     print("3- Mostrar totes les dades de un joc")
     print("4- Modificar un joc")
     print("5- Eliminar un joc")
-    print("6- Soritr")
+    print("6- Crear pagina Web")
+    print("7- Sortir")
 
     resposta: int = int(input("Introdueix una opció: "))
 
-    if resposta == 6:
+    if resposta == 7:
         print("Andusiauu!")
         break
 
@@ -136,4 +138,27 @@ while (True):
             if idJocBorrar == element.get('id'):
                 root.remove(element)
 
-        tree.write("jocs.xml")
+    if resposta == 6:
+        environment = Environment(loader=FileSystemLoader("paginaWebJocs/"))
+        template = environment.get_template("passarInformacio.html")
+
+        dadesJoc = []
+
+        for element in root.findall('game'):
+            nom = element.find('name').text
+            any = element.find('year').text
+            desenvolupador = element.find('developer').text
+            sistema = element.find('system').text
+            genere = element.find('genre').text
+            descripcio = element.find('description').text
+            imatge = element.find('imageURL').text
+            diccionariJoc = {"nom": nom, "any": any, "desenvolupador": desenvolupador, "sistema": sistema,
+                             "genere": genere, "descripcio": descripcio, "imatge": imatge}
+            # dadesJoc.append(diccionariJoc.copy())
+            dadesJoc.append(diccionariJoc)
+
+
+        info = {"jocs": dadesJoc}
+        contingut = template.render(info)
+        file = open("paginaWebJocs/llistaJocs.html", "w")
+        file.write(contingut)
