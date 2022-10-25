@@ -154,7 +154,6 @@ while (True):
             imatge = element.find('imageURL').text
             diccionariJoc = {"nom": nom, "any": any, "desenvolupador": desenvolupador, "sistema": sistema,
                              "genere": genere, "descripcio": descripcio, "imatge": imatge}
-            # dadesJoc.append(diccionariJoc.copy())
             dadesJoc.append(diccionariJoc)
 
 

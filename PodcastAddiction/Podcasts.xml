@@ -1,0 +1,42 @@
+<data>
+    <podcast id="1">
+        <name>The Wild Project</name>
+        <feed>https://feeds.megaphone.fm/TWIP9771253765</feed>
+    </podcast>
+    <podcast id="2">
+        <name>MS-DOS CLUB Podcast</name>
+        <feed>https://msdos.club/podfeed/feed.xml</feed>
+    </podcast>
+    <podcast id="3">
+        <name>Club 113</name>
+        <feed>https://www.ivoox.com/club-113_fg_f11503926_filtro_1.xml</feed>
+    </podcast>
+    <podcast id="4">
+        <name>La Ruina</name>
+        <feed>https://www.ivoox.com/ruina_fg_f1661078_filtro_1.xml</feed>
+    </podcast>
+    <podcast id="5">
+        <name>Programar es una mierda</name>
+        <feed>https://www.ivoox.com/podcast-programar-es-mierda_fg_f1432444_filtro_1.xml</feed>
+    </podcast>
+    <podcast id="6">
+        <name>A vivir que son dos dias</name>
+        <feed>https://fapi-top.prisasd.com/podcast/playser/a_vivir_que_son_dos_dias/itunestfp/podcast.xml</feed>
+    </podcast>
+    <podcast id="7">
+        <name>El primer palo</name>
+        <feed>https://esradio.libertaddigital.com/el-primer-palo/podcast.xml</feed>
+    </podcast>
+    <podcast id="8">
+        <name>El juego de los detectives</name>
+        <feed>https://fapi-top.prisasd.com/podcast/playser/el_juego_de_los_detectives/itunestfp/podcast.xml</feed>
+    </podcast>
+    <podcast id="9">
+        <name>El gallo que no cesa</name>
+        <feed>https://www.ivoox.com/mi-dieta-cojea-radio-nutricion-dietetica_fg_f1135597_filtro_1.xml</feed>
+    </podcast>
+    <podcast id="10">
+        <name>El Pedcast con Jos&#233; Eduardo Derbez</name>
+        <feed>https://www.ivoox.com/mi-dieta-cojea-radio-nutricion-dietetica_fg_f1135597_filtro_1.xml</feed>
+    </podcast>
+</data>
