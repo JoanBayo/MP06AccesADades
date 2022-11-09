@@ -1,0 +1,21 @@
+{% extends "baseWebPodcasts.html" %}
+
+{% block llistat -%}
+        {% for p in podcasts -%}
+            <h2>{{ p.get("titul")}}</h2>
+            <a class="nav" href={{p.get("links")}}>{{ p.get("titul")}}</a>
+            <p>
+                <img alt="titul" src={{p.get("itunesImage")}} width="30%">
+            <p>
+            <div>
+                <h3>{{ p.get("titulEpisodi")}}</h3>
+                <a class ="van" href={{p.get("linksEpisodi")}}>{{ p.get("titulEpisodi")}}</a>
+                <p>
+                    <img alt="titul" src={{p.get("imatge")}}  width="15%">
+                </p>
+                <p>{{ p.get("duracio")}}</p>
+                <p class="descripcio">{{ p.get("descripcio")}}</p>
+                <a class="anv" href={{p.get("descaregar")}}>Podcast Episodi</a>
+            </div>
+        {% endfor -%}
+{% endblock -%}

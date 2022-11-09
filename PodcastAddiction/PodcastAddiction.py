@@ -1,6 +1,9 @@
 import os
 import xml.etree.ElementTree as ET
 from jinja2 import Environment, FileSystemLoader
+import urllib.request
+
+from extreureInfoDelFeed import extreureInfoDelFeed
 
 existeixDirecotriPodcasts = os.path.exists("Podcasts.xml")
 
@@ -11,16 +14,20 @@ if not existeixDirecotriPodcasts:
 tree = ET.parse("Podcasts.xml")
 root = tree.getroot()
 
+
+
+
 while (True):
     # Introduim lindex amb les diferentes opcions
     print("1- Insertar un nou feed")
     print("2- Llistar els feeds")
     print("3- Eliminar un feed")
-    print("4- Sortir")
+    print("4- Crear una pagina Web amb la informació dels Podcasts")
+    print("5- Sortir")
 
-    resposta: int = int(input("Introdueix una opció: "))
+    resposta = int(input("Introdueix una opció: "))
 
-    if resposta == 4:
+    if resposta == 5:
         print("Andusiauu!")
         break
 
@@ -62,4 +69,29 @@ while (True):
         for element in root.findall('podcast'):
             if idBorrarPodcasts == element.get('id'):
                 root.remove(element)
+
+    if resposta == 4:
+        environment = Environment(loader=FileSystemLoader("templatesPodcasts/"))
+        template = environment.get_template("plantillaWebPodcasts.html")
+
+        dadesPodcast = []
+
+        for element in root.findall('podcast'):
+            feeds = element.find('feed').text
+            url = feeds
+            connexio = urllib.request.urlopen(url)
+            contingut = connexio.read().decode('UTF-8')
+            diccionariPodcast = extreureInfoDelFeed(contingut)
+            dadesPodcast.append(diccionariPodcast)
+
+        info = {"podcasts": dadesPodcast}
+        contingut = template.render(info)
+        file = open("llistaPodcasts.html", "w")
+        file.write(contingut)
+        file.close()
+        # info = {"podcasts": dadesPodcast}
+        # contingut = template.render(info)
+        # file = open("PodcastAddiction/templatesPodcasts/llistatPodcasts.html","w")
+        # file.write(contingut)
+
 
