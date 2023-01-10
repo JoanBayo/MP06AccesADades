@@ -89,6 +89,8 @@ while (True):
         file = open("llistaPodcasts.html", "w")
         file.write(contingut)
         file.close()
+
+        print("\nPaguina Web Creada\n")
         # info = {"podcasts": dadesPodcast}
         # contingut = template.render(info)
         # file = open("PodcastAddiction/templatesPodcasts/llistatPodcasts.html","w")

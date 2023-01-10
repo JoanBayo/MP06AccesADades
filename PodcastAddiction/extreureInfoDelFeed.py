@@ -31,7 +31,7 @@ def extreureInfoDelFeed(contingut):
             links = ""
 
         try:
-            itunesImage = element.find('image').find('url').text
+            itunesImage = element.find('{http://www.itunes.com/dtds/podcast-1.0.dtd}image').attrib['href']
         except:
             itunesImage = ""
 
@@ -46,19 +46,20 @@ def extreureInfoDelFeed(contingut):
             linksEpisodi = ""
 
         try:
-            duracio = element.find('item').find('pubDate').text
+            duracio = element.find('item').find('{http://www.itunes.com/dtds/podcast-1.0.dtd}duration').text
         except:
             duracio = ""
 
         try:
-            imatge = element.find('image').find('url').text
+            imatge = element.find('item').find('{http://www.itunes.com/dtds/podcast-1.0.dtd}image').attrib['href']
         except:
             imatge = ""
 
         try:
-            descripcio = element.find('item').find('description').text
+            descripcio = element.find('item').find('{http://www.itunes.com/dtds/podcast-1.0.dtd}summary').text
+
         except:
-            descripcio = ""
+            descripcio = element.find('item').find('description').text
 
         try:
             descaregar = element.find('item').find('enclosure').attrib['url']

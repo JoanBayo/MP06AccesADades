@@ -32,11 +32,11 @@
         <feed>https://fapi-top.prisasd.com/podcast/playser/el_juego_de_los_detectives/itunestfp/podcast.xml</feed>
     </podcast>
     <podcast id="9">
-        <name>El gallo que no cesa</name>
+        <name>Mi Dieta Cojea Radio (Nutrición y Diatética)</name>
         <feed>https://www.ivoox.com/mi-dieta-cojea-radio-nutricion-dietetica_fg_f1135597_filtro_1.xml</feed>
     </podcast>
     <podcast id="10">
-        <name>El Pedcast con Jos&#233; Eduardo Derbez</name>
-        <feed>https://www.ivoox.com/mi-dieta-cojea-radio-nutricion-dietetica_fg_f1135597_filtro_1.xml</feed>
+        <name>Nadie Sabe Nada</name>
+        <feed>https://fapi-top.prisasd.com/podcast/playser/nadie_sabe_nada/itunestfp/podcast.xml</feed>
     </podcast>
 </data>
