@@ -139,7 +139,7 @@ while (True):
                 root.remove(element)
 
     if resposta == 6:
-        environment = Environment(loader=FileSystemLoader())
+        environment = Environment(loader=FileSystemLoader("paginaWebJocs/"))
         template = environment.get_template("passarInformacio.html")
 
         dadesJoc = []

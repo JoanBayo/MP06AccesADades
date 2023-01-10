@@ -106,4 +106,17 @@
             https://www.mobygames.com/images/covers/l/97833-cooking-mama-2-dinner-with-friends-nintendo-ds-front-cover.jpg
         </imageURL>
     </game>
-<game id="1"><name>League of Legends</name><year>2009</year><system>Windows</system><developer>Riot Games, Inc.</developer><genre>Strategy</genre><description>Consisteix amb dos equips de cinc jugadors, els quals cada un te un personatge amb unes habilitats,</description><imageURL>            per guanyar la partida tens que destruir el "nexo" del equip rivalhttps://e7.pngegg.com/pngimages/414/243/png-clipart-league-of-legends-logo-video-games-league-of-legends-game-text.png</imageURL></game></data>
+    <game id="1">
+        <name>League of Legends</name>
+        <year>2009</year>
+        <system>Windows</system>
+        <developer>Riot Games, Inc.</developer>
+        <genre>Strategy</genre>
+        <description>Consisteix amb dos equips de cinc jugadors, els quals cada un te un personatge amb unes
+            habilitats,
+        </description>
+        <imageURL>per guanyar la partida tens que destruir el "nexo" del equip
+            rivalhttps://e7.pngegg.com/pngimages/414/243/png-clipart-league-of-legends-logo-video-games-league-of-legends-game-text.png
+        </imageURL>
+    </game>
+</data>
